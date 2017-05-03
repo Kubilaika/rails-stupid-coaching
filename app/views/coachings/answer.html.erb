@@ -1,2 +1,9 @@
-<h1>Coachings#answer</h1>
-<p>Find me in app/views/coachings/answer.html.erb</p>
+<h2>question posée par l'élève: <%= @question.capitalize %></h2>
+<h2> réponse : <%= @answer %></h2>
+<p>date de la réponse <%= @date.strftime("%d/%m/%Y") %></p>
+<%= link_to "re-poser une question", ask_path %>
+
+
+
+
+
